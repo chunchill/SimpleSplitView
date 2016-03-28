@@ -18,7 +18,7 @@
 						<div id='"+myid+"_leftcontainer' style='height: 100%; width: 100%;'>\
 						</div>\
 					</td>\
-					<td id='"+myid+"_rightpagepanel' valign='top' style='position:relative; overflow: hidden; border-left-style: solid; border-left-width: thin; border-left-color: black;'>\
+					<td id='"+myid+"_rightpagepanel' valign='top' style='position:relative; overflow: hidden;'>\
 						<div id='"+myid+"_rightcontainer' style='height: 100%; width: 100%;'>\
 						</div>\
 					</td>\
@@ -128,7 +128,7 @@
 			if (left > 0) setTimeout(el.slide, 10);
 		};
 		
-		el.slide();
+		//el.slide();
 	}
 	
 	function showLeftInternal(container, leftpage, rightpage, dontslideright, dontslideleft){
